@@ -25,13 +25,6 @@ A full-stack web application to manage student records built using React (fronte
 
 ## 🛠️ Getting Started
 
-### 📦 Backend (Spring Boot)
-1. Import the `backend/` folder into IntelliJ or Eclipse
-2. Create a MySQL DB named: `student_system`
-3. In `application.properties`, update:
-   ```properties
-   spring.datasource.username=your_username
-   spring.datasource.password=your_password
 
 
 ### Setup  
