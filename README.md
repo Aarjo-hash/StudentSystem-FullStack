@@ -1,35 +1,38 @@
-# Student Management System  
+# 🎓 Student Management System (Full Stack)
 
-A simple full-stack application built using **Spring Boot** for the backend and **React.js** for the frontend. This project provides functionality to add students and view all students, demonstrating basic CRUD operations.  
-
----
-
-## Features  
-- **Add Student**: Input student details and store them in the database.  
-- **View All Students**: Fetch and display the list of all students.  
+A full-stack web application to manage student records built using React (frontend), Spring Boot (backend), and MySQL (database).
 
 ---
 
-## Technologies Used  
-
-### Backend  
-- **Spring Boot**  
-- **MySQL** (Database)  
-- **Spring Data JPA** for database interactions  
-- REST APIs for communication with the frontend  
-
-### Frontend  
-- **React.js**  
-- **Fetch API** for making HTTP requests to the backend  
+## 🚀 Features
+- Add, edit, delete student details
+- Connected to MySQL backend
+- REST API integration with Spring Boot
+- Responsive frontend UI with React
 
 ---
 
-## Getting Started  
+## 🧰 Tech Stack
 
-### Prerequisites  
-- Java (JDK 17 or higher recommended)  
-- Node.js and npm  
-- MySQL  
+| Layer     | Technology        |
+|-----------|-------------------|
+| Frontend  | React, Axios, CSS |
+| Backend   | Spring Boot, Java |
+| Database  | MySQL             |
+| Protocols | RESTful API       |
+
+---
+
+## 🛠️ Getting Started
+
+### 📦 Backend (Spring Boot)
+1. Import the `backend/` folder into IntelliJ or Eclipse
+2. Create a MySQL DB named: `student_system`
+3. In `application.properties`, update:
+   ```properties
+   spring.datasource.username=your_username
+   spring.datasource.password=your_password
+
 
 ### Setup  
 
